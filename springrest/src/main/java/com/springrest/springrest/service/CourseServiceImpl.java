@@ -23,9 +23,9 @@ public class CourseServiceImpl implements CourseService{
 	public CourseServiceImpl()
 	{
 		 
-		  list = new ArrayList<>(); list.add(new Course(145,"java course",
-		  "this is java course")); list.add(new Course(132,"spring boot",
-		  "this is spring boot course"));
+		  list = new ArrayList<>();
+		  list.add(new Course(145,"java course","this is java course"));
+		  list.add(new Course(132,"spring boot","this is spring boot course"));
 		 
 	}
 
